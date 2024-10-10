@@ -1,0 +1,22 @@
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các ảnh xuống hàng khi không đủ chỗ */
+    justify-content: center; /* Căn giữa các ảnh trong hàng */
+    gap: 16px; /* Khoảng cách giữa các ảnh */
+    margin: 16px 0; /* Khoảng cách trên và dưới */
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column; /* Đặt hướng dọc cho các thành phần bên trong */
+    align-items: center; /* Căn giữa nội dung trong item */
+    max-width: 100px; 
+    text-align: center; /* Căn giữa text */
+    width: 100px; /* Đặt chiều rộng cố định cho ảnh */
+    height: 100px; /* Đảm bảo tỷ lệ khung hình của ảnh */
+    border-radius: 8px; /* Bo tròn các góc của ảnh */
+    object-fit: cover; /* Cắt ảnh để đảm bảo nó vừa vặn trong khung */
+
+}
+

@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pa-1 {
+    padding: 4px;
+}
+
+.pa-2 {
+    padding: 8px;
+}
+.pt-2 {
+    padding-top: 2px;
+}
+
+.ma-2 {
+    margin: 8px;
+}
+.mt-2 {
+    margin-top: 8px;
+}
+
+.float-right {
+    float: right;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-50px {
+    top: 50px;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.translate-minus-50 {
+    transform: translateX(-50%);
+}
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.w-full {
+    width: 100%;
+}
